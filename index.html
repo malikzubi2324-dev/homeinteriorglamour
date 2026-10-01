@@ -1,232 +1,179 @@
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+/* =========================================
+   Interior Glamour Article - Main CSS
+   ========================================= */
 
-  <title>Creating a Warm, Personal Home: Interior Design Ideas for UK Homes</title>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-  <meta name="description" content="Explore practical interior design ideas for UK homes, from natural materials and warm colours to layered lighting and personal details.">
+html {
+    scroll-behavior: smooth;
+}
 
-  <meta name="keywords" content="interiorglamour, interior design, UK home interiors, home decor, interior design ideas">
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f6f4f0;
+    color: #333333;
+    line-height: 1.8;
+}
 
-  <style>
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      line-height: 1.75;
-      color: #333;
-      background-color: #f7f5f1;
-      margin: 0;
-      padding: 0;
-    }
+/* Article Container */
+
+article {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 45px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.06);
+}
+
+/* Main Heading */
+
+h1 {
+    font-size: 40px;
+    line-height: 1.25;
+    color: #222222;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+/* Sub Headings */
+
+h2 {
+    font-size: 28px;
+    line-height: 1.35;
+    color: #3d3027;
+    margin-top: 40px;
+    margin-bottom: 18px;
+    font-weight: 700;
+}
+
+/* Paragraphs */
+
+p {
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #444444;
+}
+
+/* Introduction */
+
+.intro {
+    font-size: 20px;
+    line-height: 1.8;
+    color: #555555;
+    margin-bottom: 28px;
+}
+
+/* Highlight Box */
+
+.highlight {
+    margin: 35px 0;
+    padding: 25px 28px;
+    background: #f2eee8;
+    border-left: 5px solid #8a6a50;
+    border-radius: 5px;
+}
+
+.highlight p {
+    margin-bottom: 0;
+    color: #4a4038;
+}
+
+/* Links */
+
+a {
+    color: #79583f;
+    font-weight: 600;
+    text-decoration: underline;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #3d3027;
+    text-decoration: none;
+}
+
+/* Strong Text */
+
+strong {
+    color: #3d3027;
+}
+
+/* Selection */
+
+::selection {
+    background: #d8c8b8;
+    color: #222222;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
 
     article {
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 40px;
-      background-color: #ffffff;
+        width: 92%;
+        margin: 30px auto;
+        padding: 30px;
     }
 
     h1 {
-      font-size: 36px;
-      line-height: 1.25;
-      color: #222;
-      margin-bottom: 20px;
+        font-size: 32px;
     }
 
     h2 {
-      font-size: 26px;
-      color: #333;
-      margin-top: 35px;
-      margin-bottom: 15px;
+        font-size: 25px;
+        margin-top: 32px;
     }
 
     p {
-      font-size: 17px;
-      margin-bottom: 18px;
+        font-size: 16px;
+        line-height: 1.75;
     }
 
     .intro {
-      font-size: 19px;
-      color: #555;
+        font-size: 18px;
+    }
+}
+
+/* Mobile Phones */
+
+@media (max-width: 480px) {
+
+    body {
+        background: #ffffff;
+    }
+
+    article {
+        width: 100%;
+        margin: 0;
+        padding: 22px;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .intro {
+        font-size: 17px;
     }
 
     .highlight {
-      background-color: #f1ece5;
-      padding: 20px;
-      margin: 30px 0;
-      border-left: 4px solid #8a6a50;
+        padding: 20px;
+        margin: 25px 0;
     }
-
-    a {
-      color: #6b4f3a;
-      font-weight: 600;
-      text-decoration: underline;
-    }
-
-    @media (max-width: 600px) {
-      article {
-        margin: 0;
-        padding: 25px;
-      }
-
-      h1 {
-        font-size: 30px;
-      }
-
-      h2 {
-        font-size: 23px;
-      }
-
-      p {
-        font-size: 16px;
-      }
-    }
-  </style>
-</head>
-
-<body>
-
-<article>
-
-  <h1>Creating a Warm, Personal Home: Interior Design Ideas for UK Homes</h1>
-
-  <p class="intro">
-    A well-designed home does not have to look like a showroom. The most inviting interiors are usually the ones that feel comfortable, practical and connected to the people who live there. Modern UK interior design is increasingly focused on natural materials, warmer colours, tactile finishes and spaces that feel genuinely lived in.
-  </p>
-
-  <p>
-    Instead of replacing everything whenever a new trend appears, homeowners can take useful design ideas and adapt them to their own space. This creates interiors that feel contemporary without becoming outdated too quickly. A thoughtful approach to design allows a home to remain stylish while still reflecting the personality and everyday needs of the people who live there.
-  </p>
-
-  <h2>Start With How the Room Is Actually Used</h2>
-
-  <p>
-    Before choosing paint colours, furniture or decorative accessories, consider how the room is used every day. A living room might need to work for relaxing, reading, entertaining guests and spending time with family. A bedroom should provide a calm atmosphere, while a kitchen needs to combine practical functionality with a welcoming environment.
-  </p>
-
-  <p>
-    Thinking about these needs first can prevent a common decorating mistake: choosing attractive individual items that do not work well together. Good interior design begins with the relationship between layout, movement, storage, lighting and comfort. Once these foundations are right, decorative decisions become much easier.
-  </p>
-
-  <h2>Bring Natural Materials Into the Scheme</h2>
-
-  <p>
-    Natural materials can add warmth and depth to an interior without making the room feel complicated. Timber, linen, wool, stone and woven textures can work particularly well in both traditional and contemporary UK homes.
-  </p>
-
-  <p>
-    You do not necessarily need to renovate an entire room to introduce natural elements. A wooden side table, woven basket, linen curtains, natural rug or textured accessories can make a noticeable difference. The objective is to create a balanced combination of surfaces rather than filling the room with too many different materials.
-  </p>
-
-  <h2>Choose Warmer Colours</h2>
-
-  <p>
-    Colour has a major influence on the atmosphere of a room. Warmer neutrals, earthy greens, muted ochres, soft blues and natural shades can help create interiors that feel comfortable and inviting.
-  </p>
-
-  <p>
-    If painting an entire room feels like too big a commitment, colour can be introduced through smaller details. Cushions, curtains, artwork, lampshades and occasional furniture can add character without requiring a major transformation.
-  </p>
-
-  <p>
-    It is also important to consider natural light before choosing a colour. A shade can look very different in a bright south-facing room compared with a darker space. Testing paint samples at different times of the day can therefore help achieve a more reliable result.
-  </p>
-
-  <h2>Layer Your Lighting</h2>
-
-  <p>
-    Lighting can completely change the atmosphere of an interior. Although a ceiling light may provide general illumination, relying on a single light source can make a room feel flat. Combining ceiling lighting with table lamps, floor lamps and wall lights creates more flexibility.
-  </p>
-
-  <p>
-    Different lighting levels can also support different activities. A reading lamp can provide focused light beside a chair, while a smaller lamp on a console can create a softer evening atmosphere. Dimmable lighting is another practical option because it allows the same room to feel brighter during the day and calmer at night.
-  </p>
-
-  <h2>Mix Contemporary Pieces With Character</h2>
-
-  <p>
-    A home can feel more personal when every piece of furniture does not look as though it was purchased at the same time. Contemporary furniture can work beautifully alongside an older mirror, vintage-inspired accessory, handmade object or meaningful artwork.
-  </p>
-
-  <p>
-    This does not mean that a room needs to become cluttered. Selecting a smaller number of meaningful pieces can often create a stronger visual effect than filling every available surface with decoration. The goal is to create a space that tells a story rather than simply following a catalogue.
-  </p>
-
-  <div class="highlight">
-    <p>
-      <strong>Design tip:</strong> Use interior trends as inspiration rather than a strict shopping list. The strongest interiors adapt current ideas to the architecture, budget and personality of the home.
-    </p>
-  </div>
-
-  <h2>Make Comfort Part of the Design</h2>
-
-  <p>
-    A room can look beautiful while still being uncomfortable to use. Seating should suit the way people actually sit, tables should be positioned conveniently and frequently used items should remain easy to reach.
-  </p>
-
-  <p>
-    Storage is also an important part of interior design. When everyday belongings have a sensible place, it becomes easier to maintain a calm and organised environment. Practical storage does not have to look boring; shelving, cabinets, baskets and furniture with hidden storage can all contribute to the overall design.
-  </p>
-
-  <h2>Use Textures to Add Depth</h2>
-
-  <p>
-    Texture is one of the simplest ways to make a room feel more interesting. Smooth furniture can be balanced with a textured rug, soft curtains, knitted throws or natural decorative materials.
-  </p>
-
-  <p>
-    Layering different textures can make neutral interiors particularly effective. Rather than relying on many colours, a room can gain visual interest through differences in fabric, finish and surface. This approach can create a sophisticated appearance while keeping the overall scheme calm.
-  </p>
-
-  <h2>Let the Home Reflect Its Character</h2>
-
-  <p>
-    UK homes have a wide range of architectural styles, from Victorian terraces and traditional cottages to modern apartments and newly built properties. Instead of hiding these characteristics, interior design can use them as part of the overall concept.
-  </p>
-
-  <p>
-    Original fireplaces, wooden floors, mouldings, exposed brick and unusual room proportions can become strong design features. In newer homes where architectural details may be limited, furniture, lighting, artwork and material choices can introduce personality.
-  </p>
-
-  <h2>Choose Design Ideas That Can Last</h2>
-
-  <p>
-    The most useful interior ideas are not necessarily the ones that dominate social media for a few months. Quality, flexibility and personal taste provide a stronger foundation for a home that needs to remain useful for years.
-  </p>
-
-  <p>
-    For homeowners looking for additional inspiration, 
-    <a href="https://interiorglamour.co.uk/" target="_blank" rel="noopener noreferrer">
-      Interior Glamour
-    </a>
-    offers interior-focused ideas that can help with thinking about decor, furniture, home improvements and creating more attractive living spaces.
-  </p>
-
-  <p>
-    Instead of asking whether a room looks fashionable today, consider whether it will still feel comfortable and useful several years from now. Materials that age well, flexible furniture arrangements and colours you genuinely enjoy can help create a more lasting interior.
-  </p>
-
-  <h2>Create a Home That Feels Personal</h2>
-
-  <p>
-    Modern interior design does not have to mean creating a perfect or highly staged room. A home should still feel comfortable and reflect the people who live in it. Personal photographs, artwork, books, travel memories and carefully selected objects can make an interior feel authentic.
-  </p>
-
-  <p>
-    The best results often come from combining practical decisions with personal choices. A well-planned layout provides functionality, while colour, texture, lighting and accessories give the space its personality.
-  </p>
-
-  <h2>Conclusion</h2>
-
-  <p>
-    Creating a welcoming interior is less about following every new trend and more about understanding what makes a space work. Natural materials, warmer colours, layered lighting, useful storage and personal details can all help create rooms that feel contemporary while remaining comfortable.
-  </p>
-
-  <p>
-    Whether you are making a small decorative update or planning a larger home improvement project, thoughtful choices can make a significant difference. Start with the purpose of the room, work with its natural characteristics and introduce design elements gradually. The result can be stylish without feeling forced and modern without losing the feeling of home.
-  </p>
-
-</article>
-
-</body>
-</html>
+}
